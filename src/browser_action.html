@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<link rel="stylesheet" href="styles/token-input.css" type="text/css" />
+	<link rel="stylesheet" href="styles/token-input-facebook.css" type="text/css" />
+	<style>
+        body {
+            margin: 8px 8px 4px 8px;
+            font-family: Lucida Grande, sans-serif;
+        }
+		p.title {
+			margin: 0;
+			padding: 0;
+			font-size: small;
+		}
+
+		td.form-label {
+			text-align: right;
+			font-size: small;
+		}
+
+		td.form-submit {
+			text-align: right;
+		}
+
+		td.form-clear {
+		}
+
+		.input-textbox {
+			width: 394px;
+			border: 1px solid #8496ba;
+			font-size: 12px;
+			font-family: Lucida Grande, sans-serif;
+			margin: 0;
+			padding: 3px 3px;
+			background: #fff;
+		}
+	</style>
+
+	<script src="scripts/jquery-1.9.1.min.js" type="text/javascript"></script>
+	<script src="scripts/jquery.tokeninput.js" type="text/javascript"></script>
+	<script src="browser_action.js" type="text/javascript"></script>
+</head>
+<body>
+	<p class="title" id="add_to_google_bookmarks">Add to Google Bookmarks</p>
+	<form name="add_bkmk_form" action="https://www.google.com/bookmarks/mark?" method="post" target="_self">
+		<input type="hidden" name="prev" value="/mark">
+		<input type="hidden" name="sig" id="sig" value="VCgclJCKQVwZAtMRUsopdA">
+		<input type="hidden" name="bkmk" id="bkmk_u" value="" dir="ltr" class="input-textbox">
+		<textarea rows="4" style="width:400px; display: none;" name="annotation" class="areastyled"></textarea>
+		<table>
+			<tbody>
+			<tr>
+				<td class="form-label" id="form_label_name">Name:</td>
+				<td>
+					<input type="text" name="title" id="bkmk_n" value="" class="input-textbox">
+				</td>
+			</tr>
+			<tr>
+				<td class="form-label" id="form_label_label">Labels:</td>
+				<td>
+					<input type="text" name="labels" id="bkmk_label_1" value="" autocomplete="off" autofocus class="input-textbox token-input-list-facebook">
+				</td>
+			</tr>
+			<tr>
+				<td class="form-clear">
+					<!--input type="reset" id="form_button_delete" value="Delete" onClick="window.close()"-->
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				</td>
+				<td class="form-submit">
+					<input type="button" id="form_button_edit" value="Edit">
+					<input type="submit" id="form_button_save" value="Save">
+				</td>
+			</tr>
+			</tbody>
+		</table>
+	</form>
+</body>
+</html>

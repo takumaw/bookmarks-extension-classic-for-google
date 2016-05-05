@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<title>Bookmarks Extension Settings</title>
+	<style>
+	</style>
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+	<script src="scripts/jquery-1.9.1.min.js" type="text/javascript"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<script src="options.js" type="text/javascript"></script>
+</head>
+<body>
+<div class="container">
+	<!-- Masthead
+	================================================================== -->
+	<div class="masthead">
+		<ul class="nav nav-pills pull-right">
+		<li class="active"><a class="about_title" href="#about">About</a></li>
+		<li><a class="settings_title" href="#settings">Settings</a></li>
+		<li><a class="test_title" href="#test">Test</a></li>
+		</ul>
+		<h3 id="settings_page_title" class="muted">Bookmarks Extension Settings</h3>
+	</div>
+	<hr>
+	<!-- About
+	================================================================== -->
+	<section id="about">
+		<div class="page-header">
+			<h3 class="about_title">About</h1>
+		</div>
+		<p id="about_message">
+(C) 2012 WATANABE Takuma &lt;takumaw@sfo.kuramae.ne.jp&gt;<br>
+<br>
+Bookmarks Launcher, excluding the softwares and the icon from third-parties,
+is released under MIT License.<br>
+<br>
+The icon is from <a href="http://fortawesome.github.com/Font-Awesome/">Font Awesome</a> by Dave Gandy,
+released under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0 License</a>.<br>
+<a href="http://jquery.org/">jQuery</a> is by jQuery Foundation, released under MIT License.<br>
+<a href="http://loopj.com/jquery-tokeninput/">jQuery Tokeninput</a> is by James Smith, released under MIT / GPL dual license.<br>
+<a href="http://twitter.github.com/bootstrap/">Bootstrap</a> is by @mdo and @fat, released under Apache License v2.0.<br>
+<br>
+See: <a href="https://github.com/takumaw/bookmarks-extension-classic-for-google">https://github.com/takumaw/bookmarks-extension-classic-for-google</a><br>
+		</p>
+	</section>
+	<!-- Settings
+	================================================================== -->
+	<section id="settings">
+		<div class="page-header">
+			<h3 class="settings_title">Settings</h1>
+		</div>
+		<p id="settings_message">
+			...
+		</p>
+	</section>
+	<!-- Test
+	================================================================== -->
+	<section id="test">
+		<div class="page-header">
+			<h3 class="test_title">Test</h1>
+		</div>
+		<p id="test_message">
+			...
+		</p>
+		<form class="form-signin">
+		<label class="text">Sig
+			<input id="sig" type="text" class="input-block-level" placeholder="Sig">
+		</label>
+		<label class="text">Labels
+			<input id="labels" type="text" class="input-block-level" placeholder="Labels">
+		</label>
+		</form>
+		<p>
+			<a class="btn" id="load_from_google_button" href="#">Test</a>
+			<!--a class="btn btn-primary" id="save_button" href="#">Save</a-->
+		</p>
+	</section>
+</div>
+</body>
+</html>

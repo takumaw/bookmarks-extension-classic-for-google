@@ -1,0 +1,47 @@
+{
+  "application_title": {
+    "message": "Bookmarks Extension"
+  },
+  "application_description": {
+    "message": "Google Bookmarking made easy."
+  },
+  "add_to_google_bookmarks": {
+  	"message": "Add to Google Bookmarks"
+  },
+  "add_to_google_bookmarks_on_popup": {
+  	"message": "Add to Google Bookmarks on Popup"
+  },
+  "form_label_name": {
+  	"message": "Name"
+  },
+  "form_label_label": {
+  	"message": "Label"
+  },
+  "form_button_save": {
+  	"message": "Save"
+  },
+  "form_button_edit": {
+  	"message": "Edit"
+  },
+  "settings_page_title": {
+  	"message": "Bookmarks Extension Settings"
+  },
+  "about_title": {
+  	"message": "About"
+  },
+  /*"about_message": {
+  	"message": "..."
+  },*/
+  "settings_title": {
+  	"message": "Settings"
+  },
+  "settings_message": {
+  	"message": "Nothing to show here. :)"
+  },
+  "test_title": {
+  	"message": "Test"
+  },
+  "test_message": {
+  	"message": "You can verify this extension to work correctly by clicking \"Test\".\nIf \"Sig\" and \"Labels\" won't show up, then something went wrong.\n\nNote that you can't use this extension unless you are logging in to your Google account."
+  }
+}

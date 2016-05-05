@@ -1,0 +1,47 @@
+{
+  "application_title": {
+    "message": "ブックマーク エクステンション"
+  },
+  "application_description": {
+    "message": "Googleブックマークをより使いやすく．"
+  },
+  "add_to_google_bookmarks": {
+  	"message": "Googleブックマークに追加"
+  },
+  "add_to_google_bookmarks_on_popup": {
+  	"message": "Googleブックマークに追加(ポップアップ)"
+  },
+  "form_label_name": {
+  	"message": "名前"
+  },
+  "form_label_label": {
+  	"message": "ラベル"
+  },
+  "form_button_save": {
+  	"message": "保存"
+  },
+  "form_button_edit": {
+  	"message": "編集"
+  },
+  "settings_page_title": {
+  	"message": "ブックマーク エクステンション 設定"
+  },
+  "about_title": {
+  	"message": "この拡張について"
+  },
+  /*"about_message": {
+  	"message": "..."
+  },*/
+  "settings_title": {
+  	"message": "設定"
+  },
+  "settings_message": {
+  	"message": "Nothing to show here. :)"
+  },
+  "test_title": {
+  	"message": "テスト"
+  },
+  "test_message": {
+  	"message": "この拡張が正しく動作しているかを確認するには，\"Test\" ボタンをクリックしてください．\n\"Sig\", \"Labels\" が表示される場合，正しく動作しています．\n\n注意: この拡張は，Google にログインしていないと利用できません．"
+  }
+}
