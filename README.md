@@ -10,10 +10,10 @@ You can add a bookmark to Google Bookmarks easily just by clicking the icon or t
 Screenshots
 -----------
 
-![screenshot1](./github/screenshot1.png)  
+![screenshot1](./extra/screenshot1.png)  
 Appears minimal and clean.
 
-![screenshot1](./github/screenshot2.png)  
+![screenshot1](./extra/screenshot2.png)  
 You can use auto-completion based on your labels.
 
 Install
